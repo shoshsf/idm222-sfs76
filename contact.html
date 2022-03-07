@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width= device-width, initial-scale=1">
+    <title>Samiha's Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="ExtentionApplicator.css">
+  </head>
+  <body>
+    <ul>
+      <li> 
+        <a href="index.html">Home</a>
+      </li>
+      <li >
+        <a href="about.html">About</a>
+      </li>
+      <li id="currentPage"><!---The currentPage Id will be applied to all the buttons depending on the page and then css will be added to that one id for when on that page-->
+        <a href="contact.html">Contact</a>
+      </li>
+      <li>
+        <a href="resume.html" target="_blank">Resume</a>
+      </li>
+    </ul>
+    <main id="contactPage">
+      <p id="disclaimer">
+        The sole purpose of this form is to identify 
+        and collect the given information, in order for me to know who you are and the reason for the Contact Request.
+        Any information given will <em>NOT</em> be sold or shared with anyone.
+      </p>
+      <hr>
+      <form id="contactForm">
+        <div class="Form" id="FirstName">
+        <label for="fName"> First Name: </label><br>
+        <input type="text" id="fName" name="firstName" value="">
+        </div>
+        <div class="Form" id="LastName">
+        <label for="lName"> Last Name: </label><br>
+        <input type="text" id="lName" name="lastName" value="">
+        </div>
+        <div class="Form" id="emailInfo">
+        <label for="email"> Email: </label><br>
+        <input type="text" id="email" name="email" value="">
+        </div>
+        <div class="Form" id="phoneInfo">
+        <label for="phone"> Phone Number: </label><br>
+        <input type="text" id="phone" name="phone" value="">
+        </div>
+        <div class="Form" id="userComments">
+        <label for="comments"> Comments: </label><br>
+        <input type="text" id="comments" name="comments" value="">
+        </div>
+        <div id="formBottom">
+          <div id="contactPreference">
+            <input type="radio" id="emailPref" value="HTML">
+            <label for="emailPref">Email</label>
+            <input type="radio" id="phonePref"  value="CSS">
+            <label for="phonePref">Phone</label><br>
+          </div> 
+          <div id="submitButton">
+            <button  type="submit" value="Submit">
+              Submit
+            </button>
+          </div>
+          
+        </div>
+      </form>
+    </main>
+
+  </body>
+</html>
