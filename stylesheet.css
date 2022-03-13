@@ -134,6 +134,13 @@ form div #submitButton{
    display: flex;
    justify-content: center;
 }
+input[type="text"] {
+    height: 60px;
+    width: 400px;
+    font-style: italic;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
 button{
     padding: 0.3rem 2.5rem;
 }
@@ -186,7 +193,7 @@ button{
 
 
 /*max Desktop and covers anything less*/
-@media (max-width:5440px){
+@media (min-width:901px){
     main{
         margin: 0;
         padding-bottom: 1rem;
@@ -308,13 +315,22 @@ button{
      }
      label{
          padding: 1rem 3rem;
+         font-size: 22px;
+
      }
+     input[type="text"] {
+        height: 60px;
+        width: 300px;
+        font-style: italic;
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
 
 }
 
 
 /*max mobile and covers anything less*/
-@media (max-width:900px){
+@media (max-width:900px) and (min-width: 481px){
     main{
         margin:0;
         padding-bottom: 1rem;
@@ -438,10 +454,18 @@ button{
      }
      label{
          padding: 1rem 3rem;
+         font-size: 18px;
      }
+     input[type="text"] {
+        height: 60px;
+        width: 400px;
+        font-style: italic;
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
 }
 
-@media (max-width:600px) and (min-width: 300px){
+@media (max-width:480px) and (min-width: 300px){
     #AboutInfo{ 
         font-family: 'Signika', 'Times New Roman', Times, serif;
         font-size: 1rem;
@@ -465,6 +489,16 @@ button{
     /*-Contact Page-*/
     #contactPage{
         margin:1rem 2rem 0; 
+    }
+    input[type="text"] {
+        height: 50px;
+        width: 300px;
+        font-style: italic;
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    label{
+        font-size: 18px;
     }
  
 }
