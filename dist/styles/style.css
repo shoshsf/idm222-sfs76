@@ -698,6 +698,7 @@ Smaller Device
                 color:#ecdefa;
                 border: 1px #ecdefa solid;
                 width: 50rem;
+                height: 100%;
             }
 
             #main-2dDesign-content a:hover{
@@ -725,7 +726,7 @@ Smaller Device
             .projectChild-2dDesign h3{
                 text-align: center;
                 /* padding:  1.5rem 0; */
-                font-size: 1.75rem;
+                font-size: 1.25rem;
                 line-height: 2rem;
             }
 
@@ -785,6 +786,12 @@ Smaller Device
                 transform: translatey(0px);
             }
          }
+
+         .thumbnailSec h3{
+            font-size: 1.75rem;
+            text-align: center;
+            padding-bottom: 0.75rem;
+         }
         
          .thumbnail{
             width: 18rem;
@@ -806,9 +813,48 @@ Smaller Device
         }
 
         .project-summaryBox{
-            border-radius: 2rem;
+            border-radius: 1.50rem;
             width:75%;
+            padding: 0 2rem;
+            border: 3px #854ac0 solid; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
         .project-summary{
             font-size: 1.75rem;
+            padding: 0.75rem 1.25rem;
+        }
+        .backBtnSection{
+            width: 65%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center; 
+            padding: 1.50rem;
+        }
+
+        
+        .button1{
+            background-color: #301F41; /* For browsers that do not support gradients */
+            background-image: linear-gradient( #301F41, #3e2853, #301F41);
+            border: 3px #854ac0 solid; 
+            border-radius: 1rem;
+            text-align: center;
+            width: 20rem;
+            padding: 1rem;
+            font-size: 1.75rem;
+            color: #ECDEFA;
+            transition: ease-out 0.55s;
+            
+        }
+        
+        .button1:hover{
+            background-color: C042D7; /* For browsers that do not support gradients */
+            background-image: linear-gradient( #472a64, #301F41, #472a64);
+            border: 3px #50227e solid;
+            box-shadow: 0 0 1.25rem #ECDEFA ;
+            transition: ease-in-out 0.55s;
+            /* drop-shadow(0 0 1.25rem #C042D7) ; */
         }
