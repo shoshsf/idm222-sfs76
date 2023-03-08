@@ -3,9 +3,9 @@
 /****************** GENERAL ******************/
 /************************************************/
 
-*{
+/* *{
     border: 1px red solid;
-}
+} */
 
 html{
     font-size: 16px;
@@ -758,6 +758,7 @@ Smaller Device
                     border-radius: 1.5rem  ;
                     width: 100%;
                     height: 100%;
+                    object-fit: cover;
                 }
     
 
@@ -858,3 +859,5 @@ Smaller Device
             transition: ease-in-out 0.55s;
             /* drop-shadow(0 0 1.25rem #C042D7) ; */
         }
+
+        
