@@ -9,7 +9,7 @@
 
 html{
     background-color: #301F41;
-    color: #ecdefa; /*desfault text color*/
+    color: #ecdefa; /*default text color*/
     font-size: 16px;
 }
 
@@ -440,6 +440,24 @@ a{
       justify-content: center;
       margin-bottom: 3.25rem;
   }
+  .about-avatar{
+    border-radius: 50%;
+    border: 0.30rem #ecdefad3 solid;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.6);
+    box-sizing: border-box;
+    height: 18rem;
+    object-fit: stretch;
+    opacity: 85;
+    overflow: hidden;
+    transform: translatey(0px);
+    width: 18rem;
+
+    animation: float 6s ease-in-out infinite;
+   }
+   .about-avatar img{
+    height: 100%;
+    width: 100%;
+}
 .icon{
       animation: float 6s ease-in-out infinite;
       border-radius: 50%;
@@ -466,11 +484,8 @@ a{
 
 #main-skills{
     display: flex;
-    flex-direction: row;
-    row-gap: 3rem;
-    padding: 2rem 0 0.75rem 0;
-
-        
+    flex-direction: column;
+            
      /*
       for alternating bg color
      */
@@ -482,7 +497,7 @@ a{
       background-color: #3c2852;
       border-radius: 3rem;
       box-shadow: 0 0 0.50rem #ECDEFA ;
-      margin: 2rem 5rem 2rem 7rem;
+      /* margin: 2rem 5rem 2rem 7rem; */
       padding: 1.75rem;
       width: 50%;
   }
@@ -490,7 +505,7 @@ a{
       background-color: #3c2852;
       border-radius: 3rem;
       box-shadow: 0 0 0.50rem #ECDEFA ;
-      margin: 2rem 7rem 2rem 5rem;
+      /* margin: 2rem 7rem 2rem 5rem; */
       padding: 1.75rem;
       width: 50%;
   }
