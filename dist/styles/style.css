@@ -732,15 +732,16 @@ Smaller Device
 
 
                 .projectChild-individualProject {
-                    /* width: calc(100vw - 20rem); */
-                    height: 30rem;
+                    /* width: calc(100vw - 30rem); */
+                    /* height: 30rem; */
+                    
                     border-radius: 1.5rem;
                     display: flex;
                     flex-direction: column;
-                    margin: 0 2rem;
+                    margin: 0 8rem;
                 }
 
-                .projectChild-individualProject img{
+                .projectChild-individualProject-image {
                     border-radius: 1.5rem  ;
                     width: 100%;
                     height: 100%;

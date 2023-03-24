@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title> Portfolio | 2D Design Project </title>
+        <title> Portfolio | Scripting </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="../../../dist/styles/style.css" rel="stylesheet">
@@ -59,7 +59,23 @@
                 </h2>
                 <div id="main-2dDesign-content" >
                     <div class="projectChild-individualProject"> 
-                        <img src="../../../dist/images/Scripting/Scripting2/projectImg.png" alt="#">
+                        <!-- <img src="../../../dist/images/Scripting/Scripting2/projectImg.png" alt="#"> -->
+                        <picture>
+                            <!--width max-->
+                            <source
+                                media="(min-width: 900px)"
+                                srcset="../../../dist/images/Scripting/Scripting2/projectImg_large.jpg"
+                            />
+                            <!--width 900px-->
+                            <source
+                                media="(min-width: 500px)"
+                                srcset="../../../dist/images/Scripting/Scripting2/projectImg_med.jpg"
+                            />
+                            <!--width OG-->
+                            <img class="projectChild-individualProject-image"
+                                srcset="../../../dist/images/Scripting/Scripting2/projectImg.png"
+                            />
+                        </picture>
                     </div>
                                         
                     <div class="project-summaryBox">

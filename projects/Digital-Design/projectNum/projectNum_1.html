@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title> Portfolio | 2D Design Project </title>
+        <title> Portfolio | Digital Design </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="../../../dist/styles/style.css" rel="stylesheet">
@@ -57,7 +57,23 @@
                 <h2 class="font_baloo"> Desktop Portrait </h2>
                 <div id="main-2dDesign-content" >
                     <div class="projectChild-individualProject"> 
-                        <img src="../../../dist/images/Digital-Design/project1/projectImg.png" alt="#">
+                        <picture>
+                            <!--width max-->
+                            <source
+                                media="(min-width: 900px)" 
+                                srcset="../../../dist/images/Digital-Design/project1/projectImg_large.jpg"
+                            />
+                            <!--width 900-->
+                            <source
+                                media="(min-width: 500px)"
+                                srcset="../../../dist/images/Digital-Design/project1/projectImg_med.jpg"
+                            />
+                            <!--width OG-->
+                            <img class="projectChild-individualProject-image"
+                                srcset="../../../dist/images/Digital-Design/project1/projectImg.png"
+                            />
+                        </picture>
+                        <!-- <img src="../../../dist/images/Digital-Design/project1/projectImg.png" alt="#"> -->
                     </div>
                     <div class="project-summaryBox">
                         <p class="project-summary">
