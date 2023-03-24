@@ -172,7 +172,7 @@
   flex-direction: column;
 }
 
-#main-education-top{
+.main-education-top{
   flex-direction: column;
 }
 
@@ -209,7 +209,42 @@ padding: 2rem 0;
    margin-left: 0.5rem;
 }
 
+#main-2dDesign-content{
+  padding: 0 1rem 0 1rem;
+}
+  #main-2dDesign-content a{
+      width: 14rem;
+  }
+  .projectChild-2dDesign h3{
+      padding: 1rem;
+}
+.main-projectIndex-2dDesign h2{
+ 
+  font-size: 1.75rem;
+  padding: 0 2rem;
+}
+#main-2dDesign-content{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+    padding: 0;
+}
+.projectChild-individualProject {
+  width: calc(100vw - 2.25rem);
+  height: 20rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
 
+.project-summary{
+  font-size: 1.5rem;
+  padding: 0.75rem 0.80rem;
+}
    
 }
 
@@ -431,6 +466,9 @@ padding: 2rem 0;
    margin-left: 0.5rem;
 }
 
+#main-2dDesign-content a{
+  width: 20rem;
+}
  
 }
 
@@ -661,7 +699,24 @@ padding: 2rem 0;
    margin-left: 0.5rem;
 }
 
- 
+#main-2dDesign-content a{
+  width: 25rem;
+}
+
+#main-2dDesign-content{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  gap: 5rem;
+  justify-content: center;
+  padding: 0 3rem 4rem;
+
+}
+
+.projectChild-2dDesign h3{
+    padding: 1rem;
+}
  
 }
 
@@ -673,6 +728,27 @@ padding: 2rem 0;
     padding-bottom: 1.25rem;
     width: 90%;
   }
+
+  #main-2dDesign-content{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: none;
+    gap: 5rem;
+    justify-content: center;
+    padding: 0 3rem 4rem;
+
+
+  padding: 0 1rem 0 1rem;
+}
+#main-2dDesign-content a{
+  width: 40rem;
+}
+  .projectChild-2dDesign h3{
+      padding: 1rem;
+}
+
+
 
   
 }
